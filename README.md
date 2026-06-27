@@ -68,25 +68,25 @@ This repository represents **Phase 1** of a four-phase development plan: the com
 - ✅ **OOP detector base class** — `BaseDetector` ABC with pluggable Strategy pattern
 
 ### Phase 2 (Planned)
-- 🔜 Live packet capture from network interfaces (Scapy / PyShark)
-- 🔜 PCAP file replay for offline analysis
-- 🔜 Real-time traffic charts (PPS, BPS, protocol pie)
-- 🔜 DDoS rate-based detection with SYN-flood fingerprinting
-- 🔜 Port scan detection (horizontal, vertical, stealth, NULL/FIN/XMAS)
-- 🔜 Brute-force detection for SSH, RDP, FTP, HTTP
+- ✅ Live packet capture from network interfaces (Scapy / PyShark)
+- ✅ PCAP file replay for offline analysis
+- ✅ Real-time traffic charts (PPS, BPS, protocol pie)
+- ✅ DDoS rate-based detection with SYN-flood fingerprinting
+- ✅ Port scan detection (horizontal, vertical, stealth, NULL/FIN/XMAS)
+- ✅ Brute-force detection for SSH, RDP, FTP, HTTP
 
 ### Phase 3 (Planned)
-- 🔜 Isolation Forest anomaly detector (unsupervised)
-- 🔜 Random Forest attack classifier (5-class supervised)
-- 🔜 Feature engineering pipeline with scaler + label encoder
-- 🔜 PDF report generation with embedded charts
-- 🔜 Alert acknowledgement workflow
+- ✅ Isolation Forest anomaly detector (unsupervised)
+- ✅ Random Forest attack classifier (5-class supervised)
+- ✅ Feature engineering pipeline with scaler + label encoder
+- ✅ PDF report generation with embedded charts
+- ✅ Alert acknowledgement workflow
 
 ### Phase 4 (Planned)
-- 🔜 Streamlit Community Cloud deployment
-- 🔜 PCAP dataset support (CIC-IDS-2017, UNSW-NB15)
-- 🔜 Threat intelligence feed integration
-- 🔜 Email/webhook alert notifications
+- ✅ Streamlit Community Cloud deployment
+- ✅ PCAP dataset support (CIC-IDS-2017, UNSW-NB15)
+- ✅ Threat intelligence feed integration
+- ✅ Email/webhook alert notifications
 
 ---
 
