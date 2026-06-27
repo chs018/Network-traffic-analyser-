@@ -46,13 +46,13 @@ This repository represents **Phase 1** of a four-phase development plan: the com
 |---|-----------|-------|
 | 1 | Design modular, OOP-based architecture with clean separation of concerns | ✅ 1 |
 | 2 | Implement SQLite-backed storage with typed schemas and indexes | ✅ 1 |
-| 3 | Capture live network traffic using Scapy / PyShark | ⏳ 2 |
-| 4 | Detect DDoS, Port Scanning, and Brute-Force attacks via heuristic rules | ⏳ 2 |
-| 5 | Engineer ML features from traffic flows | ⏳ 2 |
-| 6 | Train Isolation Forest (anomaly) and Random Forest (classification) models | ⏳ 3 |
-| 7 | Deploy an interactive Streamlit dashboard with live charts and alerts | ⏳ 2–3 |
-| 8 | Generate downloadable PDF reports from analysis results | ⏳ 3 |
-| 9 | Deploy to Streamlit Community Cloud | ⏳ 4 |
+| 3 | Capture live network traffic using Scapy / PyShark | ✅ 2 |
+| 4 | Detect DDoS, Port Scanning, and Brute-Force attacks via heuristic rules | ✅ 2 |
+| 5 | Engineer ML features from traffic flows | ✅ 2 |
+| 6 | Train Isolation Forest (anomaly) and Random Forest (classification) models | ✅ 3 |
+| 7 | Deploy an interactive Streamlit dashboard with live charts and alerts | ✅ 2–3 |
+| 8 | Generate downloadable PDF reports from analysis results | ✅ 3 |
+| 9 | Deploy to Streamlit Community Cloud / Production Ready | ✅ 4 |
 
 ---
 
@@ -352,9 +352,9 @@ Stores trained ML model paths, accuracy metrics, and active-model flags for Phas
 
 ```
 Phase 1 ✅  Foundation, architecture, DB schema, logging, config, app scaffold
-Phase 2 ⏳  Packet capture, parsing, traffic stats, heuristic attack detection
-Phase 3 ⏳  ML training (Isolation Forest + Random Forest), PDF reports
-Phase 4 ⏳  Cloud deployment, notifications, threat feeds, optimisation
+Phase 2 ✅  Packet capture, parsing, traffic stats, heuristic attack detection
+Phase 3 ✅  ML training (Isolation Forest + Random Forest), PDF reports
+Phase 4 ✅  Enterprise SOC Dashboard, health monitor, live alerts, optimization
 ```
 
 ---
