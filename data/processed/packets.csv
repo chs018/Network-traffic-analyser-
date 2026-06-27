@@ -1,0 +1,4 @@
+packet_number,timestamp,source_ip,destination_ip,protocol,transport_layer,packet_length,source_port,destination_port,ttl,tcp_flags,network_layer,app_layer_hint,ip_version,is_tcp,is_udp,is_icmp,packet_size_category,source_ip_frequency,destination_ip_frequency,hour_of_day,is_private_src,is_private_dst
+1,2026-06-27T17:52:45.559062+00:00,2.1.1.2,2.1.1.1,UNKNOWN,,1010,,,64,,IPV4,,4,0,0,0,large,2,2,17,0,0
+2,2026-06-27T17:52:45.559807+00:00,2.1.1.2,2.1.1.1,ICMP,ICMP,466,,,64,,IPV4,,4,0,0,1,medium,2,2,17,0,0
+3,2026-06-27T17:52:45.561940+00:00,2.1.1.1,2.1.1.2,ICMP,ICMP,1442,,,64,,IPV4,,4,0,0,1,large,1,1,17,0,0
